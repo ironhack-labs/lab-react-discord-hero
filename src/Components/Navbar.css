@@ -1,0 +1,10 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 5%;
+    margin: 10px;
+}

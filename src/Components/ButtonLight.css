@@ -1,0 +1,12 @@
+.button-light {
+    width: 13em;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 15px 10px;
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
