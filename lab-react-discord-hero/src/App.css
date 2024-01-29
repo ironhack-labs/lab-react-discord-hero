@@ -1,0 +1,27 @@
+/* HeroSection.css */
+body {
+  background-color: #404fed;
+  margin: 25px;
+}
+
+.hero-section {
+  height: 100vh;
+  width: auto;
+  background-image: url("/src/assets/discord-background.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
