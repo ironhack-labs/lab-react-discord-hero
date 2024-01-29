@@ -1,8 +1,8 @@
 .app {
   background: url('./assets/discord-background.png'), #434ee4;
-  background-position: bottom right 200px;
-  ;
+  background-position: bottom right 40%;
   background-repeat: no-repeat;
+  padding-bottom: 200px;
 }
 
 
