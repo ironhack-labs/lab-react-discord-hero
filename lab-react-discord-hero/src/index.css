@@ -1,0 +1,59 @@
+header {
+  background-color: #404fed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 80px;
+}
+.logo img {
+  width: 200px;
+  height: 50px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  margin-right: 20px;
+}
+.menu {
+  width: 50px;
+  height: 50px;
+}
+div .page {
+  background-color: #404fed;
+  height: 100vh;
+  position: relative;
+  bottom: 100px;
+}
+.img-page {
+  position: relative;
+  top: 100px;
+  left: 600px;
+}
+.title {
+  color: #fff;
+  font-size: 100px;
+}
+.paragraph {
+  text-align: start;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+.btn1 {
+  border: #fff 30px solid;
+  border-radius: 40%;
+  position: relative;
+  bottom: 150px;
+  width: 250px;
+  left: 250px;
+}
+.btn2 {
+  background-color: black;
+  border: black 30px solid;
+  border-radius: 40%;
+  position: relative;
+  color: #fff;
+  width: 250px;
+}
