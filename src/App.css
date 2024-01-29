@@ -1,15 +1,46 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+.app {
+  background: url('./assets/discord-background.png'), #434ee4;
+  background-position: bottom right 200px;
+  ;
+  background-repeat: no-repeat;
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  margin-top: 150px;
+  width: 50%;
+}
+
+.main-content h1 {
+  color: white;
+  font-size: 60px;
+  width: 60%;
+  line-height: 60px
+}
+
+.main-content p {
+  color: white;
+  font-size: 20px;
+  line-height: 30px
+}
+
+.main-content .btn {
+  display: block;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  margin: 20px 0;
+}
+
+.main-content .btn-black {
+  color: white;
+  background-color: black;
 }
