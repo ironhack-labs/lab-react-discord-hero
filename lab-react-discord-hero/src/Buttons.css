@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 50px;
+
+}
+
+.mac button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: white;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.browser button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: black;
+    border-radius: 20%;
+}
