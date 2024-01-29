@@ -1,0 +1,14 @@
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.icons img {
+	height: 50px;
+}
+.menu img {
+	width: 50px;
+}
+.logo img {
+	width: 900px;
+}
