@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  text-align: left;
+  margin: 0 80px;
+}
+
+body {
+  background-color: #404fed;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  width: 400px;
+  position: absolute;
+  top: 150px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 570px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 25px;
+}
+
+.menu {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  height: 40px;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  height: 400px;
+}
+
+.button {
+  height: 50px;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 30px;
+  margin: 20px 0;
+}
