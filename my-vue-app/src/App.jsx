@@ -4,8 +4,8 @@ function App() {
   return (
     <>
       <nav>
-        <img src="./src/assets/discord-logo-white.png" />
-        <img src="./src/assets/menu-icon.png" />
+        <img src="my-vue-app/src/assets/discord-logo-white.png" />
+        <img src="my-vue-app/src/assets/menu-icon.png" />
       </nav>
       <div className="info">
         <h1>IMAGINE A PLACE...</h1>
