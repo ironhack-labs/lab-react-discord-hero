@@ -1,0 +1,8 @@
+.background-image {
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+    align-items: flex-end;
+
+    width: 100vw;
+    }

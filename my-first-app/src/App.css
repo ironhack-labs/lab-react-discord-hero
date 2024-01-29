@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.browser {
+  background-color: #313338 !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 280px !important;
+}
+
+.mac {
+  width: 200px;
+}
