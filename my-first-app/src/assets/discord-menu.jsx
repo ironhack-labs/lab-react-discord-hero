@@ -3,10 +3,12 @@ import React from "react";
 
 const DiscordMenu = () => {
   return (
+    <div>
     <img
       src="./src/assets/menu-icon.png"
       alt="Discord Menu"
-    ></img>
+    />
+    </div>
   );
 };
 
