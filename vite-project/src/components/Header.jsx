@@ -1,8 +1,10 @@
-export default function Header({ headerText, bodyText }) {
+export default function Header({ title, subtitle }) {
   return (
     <div>
-      <h1>{headerText}</h1>
-      <p>{bodyText}</p>
+      <header>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+      </header>
     </div>
   );
 }
