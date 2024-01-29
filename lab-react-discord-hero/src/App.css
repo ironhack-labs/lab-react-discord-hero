@@ -1,0 +1,9 @@
+.App {
+  background-image: url("src/assets/discord-background.png");
+  background-color: #404FED;
+  background-size: 50%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
