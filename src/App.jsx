@@ -17,7 +17,14 @@ function App() {
       ></img>
       <img className="discord-logo" src={discordLogo} alt="Discord Logo"></img>
       <img className="background-img" src={backgroundImg}></img>
-      <button className="forMac">Download for Mac</button>
+      <button
+        onClick={() => {
+          location.href = "http://google.com";
+        }}
+        className="forMac"
+      >
+        Download for Mac
+      </button>
       <button>Open Discord in your browser</button>
     </div>
   );
