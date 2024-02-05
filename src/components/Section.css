@@ -1,11 +1,21 @@
 .heading {
     color: white;
     font-family: Poppins;
-    width: 30%;
+    /* width: 50%; */
+    width: 300px;
+    font-size: 50px;
+    line-height: 45px;
 }
 
 .paragraph {
     color: white;
     font-family: Roboto;
-    width: 50%;
+    width: 360px;
+    /* width: 55%; */
+    margin-top: 30px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
 }

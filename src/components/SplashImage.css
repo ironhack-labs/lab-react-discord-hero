@@ -1,0 +1,5 @@
+.splash-image {
+    border: 1px solid red;
+    transform: translateY(-65%) translateX(550%);
+    width: 50px;
+}
