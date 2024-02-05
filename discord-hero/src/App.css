@@ -27,3 +27,9 @@ p{
   width: 60vw;
   font-size: 2rem;
 }
+.logo{
+     width: 10vw;
+}
+.menu,.bgImg{
+  float: right;
+}

@@ -5,8 +5,8 @@ function App() {
   return (
       <div className="App">
         <div className="navBar">
-        <img className='logo' src =" ./assets/discord-logo-white.png" />
-       <img className='menu' src =" ./assets/menu-icon.png" />
+        <img className='logo' src =" ../src/assets/discord-logo-white.png" />
+       <img className='menu' src =" ../src/assets/menu-icon.png" />
         </div>
     <div className="heroContent">
 <h1>IMAGINE A PLACE...</h1>
@@ -21,7 +21,7 @@ function App() {
 <button className='openBrowser'>Open Discord in your browser</button>
 </div>
     </div>
-    <img className='bgImg'src='./assets/discord-background.png'/>
+    <img className='bgImg'src=' ../src/assets/discord-background.png'/>
       </div>
   )
 }
