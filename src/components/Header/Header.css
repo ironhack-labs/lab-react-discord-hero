@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 25px;
+}
+
+.header__menu {
+  height: 40px;
+}

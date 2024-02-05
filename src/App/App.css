@@ -1,0 +1,6 @@
+.app {
+  width: 100%;
+  max-width: 1280px;
+  background-color: var(--bg-main-color);
+  min-height: 100dvh;
+}
