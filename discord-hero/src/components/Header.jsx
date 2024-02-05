@@ -6,7 +6,7 @@ function Header(){
 
     return (
         <>
-              <img src={logo} alt="example" /> 
+              <img src={logo} alt="example"  /> 
               <img src={menu} alt="example" /> 
 
 
