@@ -1,0 +1,11 @@
+p{
+    color:white;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+#group{
+    float: right;
+
+}
