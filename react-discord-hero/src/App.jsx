@@ -14,6 +14,7 @@ function App() {
         <div>
           <img src={burger} className="burger" alt="Burger Menu" />
         </div>
+      
       </header>
 
      
@@ -24,6 +25,9 @@ function App() {
         together. A place that makes it easy to talk every day and hang out more
         often.
       </p>
+
+      <button>Download for Mac</button>
+      <button>Open Discord in your browser</button>
     </div>
   );
 }
