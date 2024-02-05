@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 7vh;
+  width: 20vw;
+  padding: 1.5em;
+
+}
+
+.menu {
+  height: 7vh;
+  width: 5vw;
+  padding: 1.5em;
+ }
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #060404;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900; /* Black 900 */
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  
+     font-weight: 400;
+     
+  
+}
+body {
+  height: 100vh;
+  width : 100vw;
+  background-color: blue;
+
+
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;  }
+
+.menu-container {
+  position:absolute;
+  top:0;
+  right: 0;
+}
+
+.background-container{
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+.background {
+  height: 45vh;
+  width: 65vh;
+}
+
+.button-container{
+  position: absolute;
+  left:0;
+  bottom: 20%;
+}
