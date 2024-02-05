@@ -1,0 +1,13 @@
+nav {
+    height: 50px;
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+img {
+    height: 50px;
+
+}
