@@ -1,0 +1,9 @@
+.App {
+  background-color: #1851e5;
+  padding: 0px;
+  margin: 0px;
+  height: 950px;
+  width: 900px;
+  flex-grow: 3;
+
+}
