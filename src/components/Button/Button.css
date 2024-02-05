@@ -1,0 +1,17 @@
+.button {
+  border: none;
+  padding: 20px;
+  border-radius: 100px;
+  max-width: fit-content;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  margin: 0;
+  font-weight: 600;
+  background-color: var(--bg-light-button-color);
+  color: var(--fg-light-button-color);
+}
+
+.button_type_dark {
+  background-color: var(--bg-dark-button-color);
+  color: var(--fg-dark-button-color);
+}

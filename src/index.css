@@ -1,0 +1,34 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-main-color);
+
+  display: flex;
+  justify-content: center;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg-main-color: rgb(49, 49, 232);
+
+  --bg-light-button-color: rgb(255, 255, 255);
+  --bg-dark-button-color: rgb(27, 29, 31);
+
+  --fg-light-button-color: rgb(40, 42, 43);
+  --fg-dark-button-color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
