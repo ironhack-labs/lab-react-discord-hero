@@ -1,0 +1,16 @@
+div {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+
+}
