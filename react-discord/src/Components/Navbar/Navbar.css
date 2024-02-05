@@ -1,0 +1,13 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.hamburguer {
+    width: 40px;
+}
+
+.discord-logo {
+    width: 180px;
+}
