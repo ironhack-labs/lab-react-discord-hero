@@ -1,0 +1,8 @@
+.image-container {
+    transform: translateY(-230px) translateX(250px);
+    max-width: 400px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
