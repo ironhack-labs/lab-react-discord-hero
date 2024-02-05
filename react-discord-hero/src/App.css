@@ -18,20 +18,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
@@ -39,4 +25,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  background-color: #5865F2;
+}
+
+.header {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 30px;
+}
+
+#logo-img {
+  height: 40px;
 }
