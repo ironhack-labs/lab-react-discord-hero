@@ -1,15 +1,18 @@
 import './App.css'
-import Text from './Text'
-import Images from './Images'
-
+import NavBar from './NavBar'
+import BackgroundFun from './BackgroundFun'
+import Button from './Button'
+import Title from './Title'
 
 
 function App() {
 
   return (
      <>
-     <Text/>
-     <Images/>
+     <Title/>
+     <NavBar/>
+     <BackgroundFun/>
+     <Button/>
      </>
   )
 }
