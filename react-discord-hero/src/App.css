@@ -1,0 +1,42 @@
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  background-color: #404EED;
+  height: 500px;
+  
+}
+
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content:space-between ;
+}
+
+
+
+/* #logo img {
+  object-fit: contain;
+} */
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+
+}
+
+.burger {
+  height: 30px;
+}
