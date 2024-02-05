@@ -1,0 +1,10 @@
+h1 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 50px;
+
+
+}
