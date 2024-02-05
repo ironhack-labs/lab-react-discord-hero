@@ -1,0 +1,59 @@
+body {
+  background-color: blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.menu-img {
+  width: 50px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.hero img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+.black-btn {
+  background-color: black;
+  color: white;
+}
