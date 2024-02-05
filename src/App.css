@@ -1,0 +1,71 @@
+body {
+  background-color: hsl(248, 57%, 50%);
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  margin: 0;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.App .discord-logo {
+  height: 10vh;
+  width: 20vw;
+  position: absolute;
+  top: 1vw;
+  left: 3vw;
+}
+
+.App .menu-btn {
+  height: 5vh;
+  width: 3vw;
+  position: absolute;
+  top: 0;
+  right: 3vw;
+}
+
+.App .background-img {
+  height: 60vh;
+  width: 55vw;
+  position: absolute;
+  bottom: -60px;
+  right: 3vw;
+}
+h1 {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  font-size: 3vw;
+  top: 20vh;
+  left: 2vw;
+  padding: 0;
+}
+p {
+  color: white;
+  position: absolute;
+  top: 45vh;
+  right: 70vw;
+  left: 2vw;
+}
+button {
+  width: 17vw;
+  height: 5vh;
+  position: absolute;
+  bottom: 10vh;
+  border: none;
+  border-radius: 20px;
+  left: 2vw;
+  background-color: black;
+  color: white;
+}
+.forMac {
+  width: 13vw;
+  position: absolute;
+  bottom: 17vh;
+  color: black;
+  background-color: white;
+}
