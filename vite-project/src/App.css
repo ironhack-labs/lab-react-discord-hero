@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(68, 68, 237);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo{
+  width: 120px;
+  height: 30px;
+
+}
+
+.Menu-icon{
+width: 40px; 
+}
+
+h1{
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 900;
+  text-align: left;
+  margin-top: 70px;
+}
+
+p{
+  color: white;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.Buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  }
+.Mac-btn{
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20 40px;
+  align-self: flex-start;
+ 
+}
+
+.Browser-btn{
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20 40px;
+}
+.Background{
+display: inline-block
+
+}
