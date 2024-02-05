@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .img-discord-logo {
     height: 20px;
     /* width: 15%; */
+}
+
+.img-menu {
+    height: 40px;
 }

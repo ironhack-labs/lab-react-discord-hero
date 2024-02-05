@@ -6,7 +6,7 @@ function Header() {
     return(
         <div className="header-container">
             <img src={discordLogo} alt="Discord Logo" className="img-discord-logo"/>
-            <img src={menuIcon} alt="Menu" />
+            <img src={menuIcon} alt="Menu" className="img-menu"/>
         </div>
     )
 }
