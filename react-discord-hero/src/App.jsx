@@ -1,17 +1,14 @@
 import "./App.css";
+import logo from "./assets/discord-logo-white.png";
+import menu from "./assets/menu-icon.png";
+import background from "./assets/discord-background.png";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <img
-          id="discord-logo"
-          src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/discord-logo-white.png"
-        />
-        <img
-          id="menu-logo"
-          src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/menu-icon.png"
-        />
+        <img id="discord-logo" src={logo} />
+        <img id="menu-logo" src={menu} />
       </header>
       <div id="hero">
         <h1>IMAGINE A PLACE...</h1>
@@ -27,7 +24,7 @@ function App() {
           <button id="download">Download for Mac</button>
           <button id="open">Open Discord in you browser</button>
         </div>
-        <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/discord-background.png" />
+        <img src={background} />
       </div>
     </div>
   );
