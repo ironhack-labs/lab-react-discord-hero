@@ -1,13 +1,16 @@
 nav {
-    height: 50px;
     width: 96vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 20px;
-
+    margin: 0px 45.5px;
 }
 
-img {
-    height: 50px;
+.logo {
+    height: 20px;
+}
 
+.menu {
+    height: 40px;
 }

@@ -1,0 +1,23 @@
+.black {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #f6f6f6;
+    color: #23272a;
+    border-radius: 50px;
+    border: none;
+    padding: 16px 32px;
+    margin: 0px 45.5px;
+    width: 300px;
+}
+
+.white {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #f6f6f6;
+    background-color: #23272a;
+    border-radius: 50px;
+    border: none;
+    padding: 16px 32px;
+    margin: 20px 45.5px;
+    width: 350px;
+}

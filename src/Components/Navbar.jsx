@@ -5,10 +5,10 @@ import './Navbar.css'
 function Navbar() {
     return (
         <>
-        <nav>
-            <img src={logo} alt="Discord Logo"/>
-            <img src={menuIcon} alt="Menu Icon"/>
-        </nav>
+            <nav>
+                <img className = "logo" src={logo} alt="Discord Logo"/>
+                <img className = "menu" src={menuIcon} alt="Menu Icon"/>
+            </nav>
         </>
     )
 }

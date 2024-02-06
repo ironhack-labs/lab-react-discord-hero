@@ -3,7 +3,7 @@ import './Section.css'
 function Section(){
     return(
         <>
-        <h1>IMAGINA UN LUGAR</h1>
+        <h1>IMAGINA UN LUGAR...</h1>
         <p>
             ... en el que puedas formar parte de un club 
             escolar, un grupo de jugadores o una comunidad 
