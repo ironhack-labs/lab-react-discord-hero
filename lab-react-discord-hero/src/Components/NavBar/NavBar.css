@@ -1,0 +1,11 @@
+
+.NavBar {
+    background-color: #404FED;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+img {
+    width: auto;
+}
