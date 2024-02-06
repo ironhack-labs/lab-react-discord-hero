@@ -1,0 +1,15 @@
+body {
+    font-weight: 200;
+    background-color: #404FED;
+    background-image: url(./assets/discord-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+}
+
+
+
+img {
+    width: 100%;
+}
+
