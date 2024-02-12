@@ -1,0 +1,24 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#logo {
+  width: 190px;
+}
+
+#menu {
+  float: right;
+}
+
+#contenidoPrincipal {
+  color: white;
+}
+#contenidoPrincipal h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+#contenidoPrincipal p {
+  font-family: 'Roboto', sans-serif;
+}
