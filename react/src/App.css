@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(69, 69, 224);
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    height: 595px;
+    width: 70vw;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    white-space: pre-wrap;
+    line-height: 1;
+}
+
+button {
+    border-radius: 25px;
+    border: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: fit-content;
+}
+
+.btnPrimary {
+    background-color: white;
+    color: black;
+}
+
+.btnSecondary {
+    background-color: black;
+    color: white;
+}
