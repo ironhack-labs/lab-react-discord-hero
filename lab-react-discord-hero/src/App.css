@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: blue;
+  position: relative;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+#blanco {
+  background-color: "white";
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+
+
+.App {
+  width: 100%;
+  
+}
