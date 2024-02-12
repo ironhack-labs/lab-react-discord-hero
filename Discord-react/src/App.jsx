@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Main from '../../components/Main'
+import Buttons from '../../components/Buttons'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Main />
       </main>
+      <Buttons />
     </div>
   )
 }
