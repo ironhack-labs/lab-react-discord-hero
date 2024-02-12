@@ -11,6 +11,7 @@ function Body() {
   const contentStyle = {
     display: "flex",
     flexDirection: "column",
+    width: "400px"
   }
 
   const imgStyle ={
@@ -18,6 +19,9 @@ function Body() {
     justifyContent: "end",
     margin: "0px",
     padding: "0px",
+    position: "absolute",
+    top: "360px",
+    right: "320px"
   }
 
   return (
