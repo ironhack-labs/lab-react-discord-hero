@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#logo {
+  width: 190px;
+}
+
+#menu {
+  float: right;
+}
+
+#contenidoPrincipal {
+  color: white;
+  margin-top: 80px;
+}
+#contenidoPrincipal h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+#contenidoPrincipal p {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#button-first {
+  background-color: white;
+  color: black;
+  height: 50px; 
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 180px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#button-second {
+  background-color: black;
+  color: white;
+  height: 50px;
+  border-radius: 50px;
+  width: 220px;
+  margin-top: 20px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+#background-image {
+  position: relative; 
+  bottom: 180px;
+  left: 280px;
+  width: 600px
+}
