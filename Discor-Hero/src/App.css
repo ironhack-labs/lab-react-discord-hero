@@ -1,0 +1,83 @@
+#root {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 900px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	color: white;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+body {
+	background-color: rgb(65, 79, 236);
+	height: 900px;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: inherit;
+	justify-content: space-between;
+}
+
+.logo {
+	height: 40px;
+}
+
+.menu {
+	height: 30px;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 5px;
+	padding: 10px 0;
+}
+
+.information {
+	text-align: justify;
+	width: 60%;
+}
+
+.tittle {
+	text-transform: uppercase;
+	font-size: 75px;
+	width: 80%;
+}
+
+.butons {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	margin: 15px;
+	width: max-content;
+	border-radius: 15%;
+}
+
+.dark {
+	background-color: black;
+	color: white;
+}
+
+.link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
