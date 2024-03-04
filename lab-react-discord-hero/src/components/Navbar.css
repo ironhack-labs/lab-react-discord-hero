@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: 10rem;
+  padding: 1em 2em;
+}
+
+#menu-icon {
+  width: 3rem;
+}
