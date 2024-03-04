@@ -1,5 +1,9 @@
 body {
   background-color: rgb(64, 78, 237);
+  background-image: url("./assets/discord-background.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 900px;
 }
 
 h1 {

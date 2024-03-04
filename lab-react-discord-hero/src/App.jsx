@@ -1,7 +1,8 @@
 // src/App.jsx
 import "./App.css";
-import { Button } from "./components/Button";
+import { MyButton } from "./components/MyButton";
 import { Navbar } from "./components/Navbar";
+// import img from "./assets/discord-background.png";
 
 function App() {
   return (
@@ -17,8 +18,15 @@ function App() {
             and hang out more often.
           </p>
         </div>
-        <Button />
-        <Button />
+        <div>
+          <MyButton
+            text="Download for Mac"
+            color="black"
+            backgroundColor="white"
+            width="10.5%"
+          />
+          <MyButton text="Open Discord in your browser" width="17%" />
+        </div>
       </body>
     </div>
   );
