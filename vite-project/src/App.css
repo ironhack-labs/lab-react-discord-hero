@@ -1,0 +1,31 @@
+#root {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.landing-page {
+  background-color: blue; /* Change 'blue' to the shade of blue you desire */
+  width: 100vw; /* Set width to cover the entire viewport width */
+  height: 110vh; /* Set height to cover the entire viewport height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.landing-page img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.navBar img {
+  max-width: 100px;
+}
