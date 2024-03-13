@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(64, 78, 237);
+  background-image: url("./assets/discord-background.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  margin-top: 0;
+  padding-top: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.text-block {
+  width: 52%;
+}

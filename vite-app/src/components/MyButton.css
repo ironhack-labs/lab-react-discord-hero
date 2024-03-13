@@ -1,0 +1,11 @@
+.my-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: solid 1px #7289da;
+    width: 15rem;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-family: "Roboto", sans-serif;
+  }
