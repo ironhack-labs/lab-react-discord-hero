@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.menu {
+  height: 30px;
+}
