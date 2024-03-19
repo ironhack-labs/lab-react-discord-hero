@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #404eed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-right: 1rem;
+}
+.logo {
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  align-self: center;
+  margin: 0;
+  height: 3rem;
+}
+#root {
+  position: relative;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 30rem;
+  font-size: 1.1rem;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 0;
+}
+.background {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.title {
+  font-size: 2rem;
+}
+.text {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin-bottom: 2rem;
+}
+.buttondiv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+.mac {
+  height: 3rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+}
+.browser {
+  height: 3rem;
+  color: white;
+  width: 20rem;
+  background-color: black;
+  border-radius: 1rem;
+  border: none;
+}
