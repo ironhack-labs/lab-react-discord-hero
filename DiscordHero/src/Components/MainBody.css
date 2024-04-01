@@ -1,0 +1,29 @@
+.main {
+  padding-top: 60px;
+}
+
+h1 {
+  width: 300px;
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  width: 600px;
+}
+
+button {
+  height: 60px;
+  margin: 15px 0;
+  padding: 0.6em 1.2em;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.open-browser-btn {
+  background-color: #1a1a1a;
+  color: white;
+}
