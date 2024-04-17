@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+.App {
+  height: 100%;
+}
+
+.main {
+  text-align: left;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 72px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  margin: 16px;
+}
+
+.download {
+  background-color: white;
+  color: black;
+  padding: 12px 24px;
+}
+
+.whatever {
+  display: flex;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-content {
+  align-self: flex-end;
+}
