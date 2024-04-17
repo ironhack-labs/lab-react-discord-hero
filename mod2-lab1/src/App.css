@@ -1,0 +1,58 @@
+#root {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App {
+  background-color: #404fed;
+  padding: 24px 24px 0 24px;
+  position: center;
+  height: 100vh;
+}
+.contentContainer {
+}
+
+.logo {
+  height: 2em;
+}
+
+.menuImage {
+  height: 2.5em;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 300px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.downloadBtn {
+  color: #323538;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.openBtn {
+  color: white;
+  background-color: #23272a;
+  border-radius: 25px;
+  margin-bottom: 100px;
+  padding: 15px;
+}
+
+.bgImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
