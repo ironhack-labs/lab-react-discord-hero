@@ -1,0 +1,80 @@
+#root {
+  /* max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem; */
+}
+
+body {
+  background-color: rgb(58, 43, 226);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 1px white; */
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.icon {
+  width: 50px;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 90px;
+  margin-left: 10%;
+  color: white;
+  line-height: 80px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  width: 40%;
+  margin-left: 10%;
+  font-size: 25px;
+  color: white;
+}
+
+.tag-one {
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 29, 29);
+  margin-left: 10%;
+  background-color: white;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.tag-two {
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 29, 29);
+  color: white;
+  margin-left: 10%;
+  background-color: rgb(29, 29, 29);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%; /* Adjust this value according to your preference */
+
+  z-index: -1; /* Ensure the background image is behind other content */
+}
