@@ -1,0 +1,15 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 6em;
+    margin-left: 10px;
+}
+
+#menu {
+    width: 3em;
+    margin-right: 10px;
+}
