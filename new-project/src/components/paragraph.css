@@ -1,0 +1,10 @@
+.paragraph {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  position: relative;
+  /* left: 0; */
+  margin-left: 15px;
+  text-align: start;
+  width: 60%;
+  font-size: 0.69em;
+}

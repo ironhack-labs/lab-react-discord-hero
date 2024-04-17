@@ -1,0 +1,16 @@
+.title {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+
+.wrapped-text {
+  display: flex;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin: 0;
+}

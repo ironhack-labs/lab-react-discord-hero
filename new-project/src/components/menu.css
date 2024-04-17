@@ -1,0 +1,16 @@
+.menu {
+  /* font-family: "Poppins", sans-serif; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.menu-icon {
+  display: flex;
+  padding: 20px;
+  margin: 0;
+  height: 25px;
+}
