@@ -1,0 +1,22 @@
+button   {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin-left: 2rem;
+    font-size: 2em;
+    font-weight: 500; 
+    cursor: pointer;
+    transition: border-color 0.25s;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.light {
+    color: black;
+    background-color: white;
+}
+.dark {
+    color: white;
+    background-color: #1a1a1a;
+}

@@ -1,0 +1,9 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 2rem;
+    font-size: 2rem;
+    width: 50vw;
+    line-height: 1.5;
+    font-weight: 500;
+}

@@ -1,0 +1,16 @@
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 2rem;
+ }
+
+ nav>.logo {
+     height: 2rem;
+     width: auto;
+ }
+
+ nav>.menu {
+     height: 3em;
+     width: auto;
+ }
