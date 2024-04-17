@@ -1,0 +1,8 @@
+.bg-image-bottom-right {
+  height: 400px;
+  width: 400px;
+  background-image: url("/src/assets/react3.png"); /* Pfad zu deinem Bild anpassen */
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain; /* oder 'cover', je nach Bedarf */
+}
