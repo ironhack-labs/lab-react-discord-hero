@@ -1,0 +1,64 @@
+
+#main{
+  background-color: rgb(65, 89, 226);
+  font-family: 'Poppins', sans-serif;
+  max-width: 1250px;
+  color: white;
+  width: 690px;
+}
+
+#nav-main{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#bot{
+  position: relative;
+  display: flex;
+  justify-content: baseline;
+}
+#bot img{
+  width: 450px;
+}
+#btn{
+  /*position: relative;*/
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 5px;
+  gap: 10px;
+}
+
+#mac{
+  max-width: fit-content;
+  color:black;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+}
+#open{
+  max-width: fit-content;
+  color:white;
+  background-color: rgb(31, 31, 31);
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+}
+
+#nav-main img{
+max-height: 15px;
+}
+
+#top{
+max-width: 350px;
+margin: 25px;
+}
+#top h1{
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+#top p{
+  font-family: 'Roboto', sans-serif;
+}
