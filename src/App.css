@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(109, 26, 178);
+  color:white;
+  background-image:url("src/assets/images/discord-background.png") ;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position-x: 200px;
+  background-position-y:200px  ;
+  width: 600px;
+}
+#button1{
+margin: 20px;
+ border-radius: 100px;
+ border: 1px solid transparent;
+ padding: 0.6em 1.2em;
+ font-size: 1em;
+ font-weight: 500;
+ font-family: inherit;
+ background-color: #fcfcfc;
+ cursor: pointer;
+ transition: border-color 0.25s;
+}
+ 
+#button2{
+margin-top: 20px;
+margin: 20px;
+border-radius: 100px;
+  color: white;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #383636;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+#manoloSpace{
+  display:flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 20px;
+  width: 600px;
+}
+  
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  margin:20px;
+  display: flex;
+  flex-wrap:wrap;
+  width: 400px;
+  text-align: left;
+}
