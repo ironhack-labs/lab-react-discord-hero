@@ -1,0 +1,19 @@
+button {
+    background-color: #232729;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: fit-content;
+    height: 6vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    padding: 1vw;
+    border: 0;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+
+button:nth-of-type(1) {
+    color: #232729;
+    background-color: white;
+}
