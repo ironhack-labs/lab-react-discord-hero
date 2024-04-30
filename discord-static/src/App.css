@@ -1,0 +1,59 @@
+.App {
+  position: relative;
+  height: 100vw;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-discord-logo {
+  height: 15px;
+}
+
+.navbar-hamburguer {
+  height: 30px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.btn-download-mac {
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 26px;
+}
+
+.btn-open-browser {
+  background-color: rgb(35, 35, 35);
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 26px;
+}
+
+.background-img {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  height: 300px;
+}
