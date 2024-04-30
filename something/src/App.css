@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.the-h1 {
+  font-family: 'Poppins', sans-serif;
+}
+.headings img {
+  width: 150px;
+  height: fit-content;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.headings button {
+  background-color: #404EED;
+}
+.headings button img {
+  height: 40px;
+  width: fit-content;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+
+}
+.paragraphs {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #404EED;
+  display: flex;
+  flex-direction: row;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: left;
+  color: white  ;
+  width: 60%;
+}
+section img {
+  position: absolute;
+  width: 550px;
+  bottom: 0;
+  left: 55%;
+}
+.button1 {
+  border-radius: 400px;
+  margin-bottom: 15px;
+  width: 40%;
+}
+.button2 {
+  border-radius: 400px;
+  background-color:black;
+  color: white;
+  width: 60%;
+}
+
