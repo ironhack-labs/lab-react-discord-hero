@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+.Speech {
+  font-family: 'Roboto', sans-serif;
+}
+
+.BtnMac {
+  font-family: 'Roboto', sans-serif;
+}
+
+.BtnBrowser {
+  font-family: 'Roboto', sans-serif;
+}

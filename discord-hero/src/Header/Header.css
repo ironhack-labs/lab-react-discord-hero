@@ -1,0 +1,13 @@
+.Heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header {
+    background-color: #646cff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DiscordLogo {
+    width: 80px;
+}
