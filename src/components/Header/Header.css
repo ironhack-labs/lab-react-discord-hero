@@ -1,0 +1,17 @@
+.Navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #404EED;
+    width: 100%;
+}
+
+.Navbar .discLogo {
+    width: 100px;
+    margin: 20px;
+}
+
+.Navbar .menuIcon {
+    width: 25px;
+    margin: 20px;
+}

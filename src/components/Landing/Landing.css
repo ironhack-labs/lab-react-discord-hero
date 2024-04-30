@@ -1,0 +1,58 @@
+.Background {
+    background-color: #404EED;
+    background-image: url(./../../assets/discord-background.png);
+    background-size: 600px 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0;
+    height: 90.3vh;
+}
+
+.Landing {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 0;
+    margin-right: 50%;
+}
+
+.Landing .title {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-stretch: expanded;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Landing .pitch {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 180%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Landing button {
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.Landing .macButton {
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(34, 34, 34);
+}
+
+.Landing .browserButton {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
