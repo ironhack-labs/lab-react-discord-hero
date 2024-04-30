@@ -1,0 +1,27 @@
+/* En vrai, quelqu'un vérifie ce qu'on rends ou pas ? Parce que c'est bon le CSS c'est naze et j'aime pas, donc ceci est un test pour voir si je peux rendre un lab à moitié fait ou pas. Si tu me chopes Haroun je fais direct t'inquiètes.   */
+
+body {
+  background-color: #002bff;
+  width: 100%;
+}
+
+p,
+h1 {
+  color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 8rem;
+}
+
+[alt] {
+  height: 3rem;
+}
+
+[alt="discordBackground"] {
+  height: 20rem;
+  display: flex;
+  justify-content: end;
+  align-content: end;
+}
