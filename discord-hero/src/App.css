@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.nav-bar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.discord-logo{
+  width: 12.5%;
+}
+
+.menu-icon{
+  width: 2.5%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #FFFFFF;
+}
+
+.header button{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 100px;
+}
+
+#download-btn{
+  background-color: #FFFFFF;
+  color: #232729;
+  width: 170px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#open-btn{
+  color: #FFFFFF;
+  background-color: #232729;
+  width: 240px;
+}
+
+.landing-page{
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  height: 80vh;
+  width: 460px;
+}
+
+.background{
+  display: flex;
+  margin-top: 290px;
+}
+
+.background img{
+  position: absolute;
+  left: 380px;
+  width: 520px;
+  top: 55vh
+}
