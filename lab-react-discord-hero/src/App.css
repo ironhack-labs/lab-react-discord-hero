@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.navbar { 
+  background-color: rgb(48, 140, 225);
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner {
+  height: 90vh;
+}
+
+#bn {
+  height: 50vh;
+  position: absolute;
+  top: 300px;
+}
+
+.banner h1 {
+    text-align: left; 
+    margin-top: 110px;
+}
+
+.banner h3 {
+  text-align: left;
+  margin-top:  100px;
+}
+
+#mac {
+  display: flex;
+  text-align: left;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  position: absolute;
+    top:60%
+}
+
+#browser {
+  display: flex;
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+  top: 60%
+}
