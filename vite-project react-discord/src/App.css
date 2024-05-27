@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  font-size: 1.5em;
+  padding: 5vh;
+  width: 100vw;
+  color: white;
+  justify-content: space-between;
+  background-color: rgb(42, 58, 199);
+
+}
+
+.bodyApp {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.navbar {
+  height: 8vh;
+  background-color: rgb(42, 58, 199);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.imgNav {
+  height: 40%;
+}
+
+.discordBack {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+}
+
+.App button {
+  width: fit-content;
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1vh;
+  font-size: 0.7em;
+}
+
+#downloadBtn {
+  background-color: white;
+  color: black;
+}
+
+#openBtn {
+  background-color: black;
+  color: white;
+}
+
+.imgBck {
+  height: 87vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+ 
+}
