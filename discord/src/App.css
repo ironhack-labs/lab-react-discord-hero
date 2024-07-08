@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+html *{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+nav img{
+  height: 30px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+}
+header p{
+  width: 550px;
+  height: 150px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight:900;
+}
+button{
+  
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0;
+  border: none;
+  font-weight: 600;
+}
+#mac{
+  background-color: white;
+  color:#23272a ;
+  width: 250px;
+}
+#browser{
+  background-color: #23272a;
+  width: 400px;
+}
+#bg{
+  position: absolute;
+  right: 0;
+  bottom: 440px;
+}
