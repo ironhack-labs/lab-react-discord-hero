@@ -1,0 +1,57 @@
+body {
+  background-color: #3d4add;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+#logo {
+  align-items: flex-start;
+}
+#Header {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#Main-text {
+}
+.Title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  width: 400px;
+}
+.mainText {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 500px;
+}
+#buttons {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+#Mac {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  width: 200px;
+}
+#Browser {
+  color: white;
+  background-color: rgb(30, 30, 30);
+  border-radius: 50px;
+}
+.imageHero {
+  position: relative;
+  left: 350px;
+  top: -150px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+#Image {
+  padding: 0;
+  margin: 0;
+}
