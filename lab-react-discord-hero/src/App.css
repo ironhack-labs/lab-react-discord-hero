@@ -1,0 +1,32 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #404fed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.presentacion {
+  padding: 20px;
+  width: 65%;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+.open {
+  background-color: #213547;
+  color: white;
+  width: 260px;
+  font-family: 'roboto';
+  border-radius: 20px;
+}
