@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  background-color: rgb(32, 35, 167);
+  width: 900px;
+}
+
+#navBar{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#imgDiscord{
+  width: 140px;
+  height: 30px;
+  margin: 40px;
+}
+#imgMenu{
+  width: 40px;
+  height: 40px;
+  margin: 20px 40px 20px 20px;
+}
+#info h1{
+  color:white;
+  font-family: 'Popins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+#info p{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+#info{
+  margin: 40px;
+}
+#buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#firstButton{
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  width: 230px;
+  padding: 15px;
+  margin: 20px 20px 20px 40px;
+
+}
+#secondButton{
+  background-color: black;
+  color:white;
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  width: 290px;
+  padding: 15px;
+  margin-left: 40px;
+}
+#imgMainLogo{
+  
+  margin-left: 350px;
+}
