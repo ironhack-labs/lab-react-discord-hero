@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404FED;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  padding: 30px 50px;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#discord-logo {
+  max-height: 30px;
+}
+
+#menu-icon {
+  max-height: 40px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 50px;
+  width: 40%;
+}
+
+p {
+  padding-left: 50px;
+  width: 40%;
+}
+
+#buttons {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+
+#buttons button {
+  border-radius: 20px;
+}
+
+#discord-background {
+  width: 800px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  max-width: 1000px;
+}
