@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  background-color: #404eed;
+}
+
+#body {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#encavezado {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 25%;
+  height: 25%;
+}
+
+#menu {
+  width: auto;
+}
+#titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: #ffffff;
+  padding-left: 50px;
+  margin-top: 0px;
+  width: 500px;
+  padding-top: 80px;
+  text-align: left;
+  margin-bottom: -5px;
+}
+
+#parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  width: 650px;
+  text-align: left;
+  padding-left: 50px;
+}
+#hero{
+  width: 550px;
+  padding-left: 750px;
+  height: 280px;  
+    right: 0;
+}
+
+#Btn{
+  width: 550px;
+  padding-left: 400px;
+  height: 280px;
+  right: 0;
+}
