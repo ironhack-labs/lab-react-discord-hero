@@ -1,0 +1,83 @@
+.App{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(53, 53, 237);
+  font-family: 'Poppins', sans-serif;
+  width: 900px;
+  height: 600px;
+  position: relative;
+}
+
+body p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.App img{
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#despleglable {
+  width: 30px;
+  height: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 850px;
+}
+
+#despleglable span {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(250, 249, 249);
+  border-radius: 2px;
+}
+
+#principal-box{
+  margin-top: 90px;
+  padding-left: 40px;
+  position: relative;
+}
+
+#principal-box img {
+  transform: scale(0.8); 
+  transform-origin: center; 
+  position: absolute; 
+  top: 100px; 
+  left: 300px; 
+  width: auto; 
+  height: auto;
+}
+
+#principal-box p{
+  padding-right: 300px;
+  font-size: 20px;
+}
+
+button {
+  display: block;
+  width: 30%; 
+  margin-bottom: 10px;
+}
+
+#open-discord{
+  width: 35%;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+#download{
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+}
+
+#root{
+  margin: auto;
+}
