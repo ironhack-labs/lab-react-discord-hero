@@ -1,0 +1,13 @@
+.logoDiscord {
+  width: 150px;
+  height: 40px;
+}
+
+.logoMenu {
+  width: 30px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}

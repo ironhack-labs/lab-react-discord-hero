@@ -1,0 +1,17 @@
+.textMain {
+  width: 500px;
+  color: white;
+  font-family: Poppins;
+  margin-left: 15px;
+}
+
+.textMain h1 {
+  font-size: 60px;
+  font-weight:bold;
+  width: 400px;
+
+}
+
+.textMain p {
+  font-size: 15px;
+}
