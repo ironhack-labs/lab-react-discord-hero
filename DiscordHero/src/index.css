@@ -1,0 +1,66 @@
+body {
+  background-color: #404FED;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.discord-logo {
+  width: 200px;
+  height: auto;
+}
+
+.menu-navbar-3-lines {
+  width: 50px;
+  height: auto;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  width:50%;
+  text-align: left;
+  gap: 10px;
+  margin: 100px 0px;
+  padding: 0px;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.eye-catcher-heading, .eye-catcher-long-text {
+  color: white;
+}
+
+button {
+  border-radius: 10px; /* Adjust the value as needed */
+  padding: 10px 20px; /* Optional: Add padding for better appearance */
+  background-color: #5865F2; /* Optional: Add background color */
+  color: white; 
+  border: none;
+  font-size:large;
+}
+
+.mac-download-button {
+  color: black;
+  background-color: white;
+}
+
+.open-in-browser-button {
+  color: white;
+  background-color: black;
+}
+
+.background-picture {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
