@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap');
+
+/* FONTS:
+
+TITLES:
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+PARAGRAPHS:
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2{
+  font-family: "Poppins", serif;
+}
+
+p, button{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+body{
+  background-color:#404fed;
+  color: white;
+  height: 100dvh;
+}

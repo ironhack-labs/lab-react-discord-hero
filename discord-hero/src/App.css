@@ -1,0 +1,30 @@
+.App{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    background-image: url(../public/assets/discord-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    h1{
+        font-size: 80px;
+        width: 40%;
+        line-height: 80px;
+    }
+    p{
+        width: 45%;
+        line-height: 40px;
+    }
+    button{
+        border-radius: 35px;
+        border: none;
+        padding: 20px;
+        width: 30%;
+
+    }
+    #open-btn{
+        background-color: black;
+        color: white;
+    }
+}
