@@ -1,0 +1,17 @@
+.NavBar {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.NavBar .logo {
+    height: 20px;
+    width: auto;
+}
+
+.NavBar .menu-icon {
+    height: 40px;
+    width: auto;
+}

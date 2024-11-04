@@ -1,0 +1,22 @@
+.Section {
+    width: 50%;
+    padding-left: 40px;
+    position: fixed;
+    top: 25%;
+}
+
+.Section h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 70px;
+    line-height: 60px;
+
+}
+
+.Section p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+}

@@ -1,0 +1,10 @@
+.BlackButton button {
+    border: none;
+    box-shadow: none;
+    background-color: #23272a;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
