@@ -1,0 +1,14 @@
+.Navigation .logo {
+    width: 200px;
+}
+
+.Navigation .menu {
+    width: 50px;
+    cursor: pointer;
+}
+
+.Navigation .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
