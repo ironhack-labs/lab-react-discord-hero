@@ -1,0 +1,69 @@
+.Header {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: left;
+    background-color: #5865F2;
+    color: white;
+    min-height: 80vh;
+    font-family: sans-serif;
+}
+
+.Header h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.Header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.Header-content {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.download-btn,
+.browser-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
+
+.download-btn {
+    background-color: #ffffff;
+    color: #5865F2;
+}
+
+.download-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.browser-btn {
+    background-color: #23272a;
+    color: #ffffff;
+}
+
+.browser-btn:hover {
+    background-color: #2e3338;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
