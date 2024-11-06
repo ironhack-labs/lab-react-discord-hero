@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    padding: 1rem 2rem;
+	.logo {
+		height: 2.5rem;
+		width: auto;
+	}
+    .hamburger {
+        height: 50px;
+        img {
+            height: 50px;
+            width: auto;
+        }
+    }
+}
