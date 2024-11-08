@@ -1,0 +1,11 @@
+.btn-1{
+  display:block;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: hsl(200deg 7.89% 14.9%);
+  font-size: 1.2rem;
+  padding:15px 25px;
+  border-radius: 30px;
+  margin: 30px 0px 0px 40px;
+  border: none;
+}

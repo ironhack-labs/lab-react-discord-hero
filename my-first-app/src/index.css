@@ -1,0 +1,43 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100dvh;
+  background-color: hsl(235.14deg 82.78% 59.02%);
+  background-image: url(./assets/discord-background.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.hero {
+  display: block;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 5rem;
+  width: 50%;
+  margin: 80px auto auto 40px;
+  line-height: 1;
+  transform: scaleY(0.8);
+  display: inline-block;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  width: 48%;
+  font-size: 1.5rem;
+  margin: 40px auto auto 40px;
+  line-height: 1.5;
+  word-spacing: 1px;
+}
