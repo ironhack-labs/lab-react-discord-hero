@@ -1,0 +1,9 @@
+.paragraph {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    max-width: 520px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.6rem;
+}
