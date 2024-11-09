@@ -1,0 +1,9 @@
+/* src/components/Title.css */
+
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  

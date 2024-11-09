@@ -1,0 +1,8 @@
+/* src/components/Logo.css */
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
