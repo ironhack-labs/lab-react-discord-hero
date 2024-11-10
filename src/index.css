@@ -1,0 +1,114 @@
+/* General Reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color:#404EEE!important;
+  background-image: url('./src/assets/img/discord-background.png');
+  background-size: cover;
+  background-position: right!important;
+  background-repeat: no-repeat;
+}
+
+/* Asigna la fuente Poppins en estilo Black 900 a los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900; /* Black 900 */
+  text-align: left;
+}
+
+/* Asigna la fuente Roboto en estilos Regular 400 y Regular 500 a los párrafos y texto */
+p, span, div {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular 400 por defecto */
+  text-align: left;
+}
+
+/* Para aplicar el estilo Regular 500 en algunos textos específicos */
+.text-medium {
+  font-weight: 500; /* Regular 500 */
+  text-align: left;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+  max-width: 600px;
+
+  padding: 40px 20px;
+}
+
+.hero-section h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-section p{
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+div.buttons{
+  display: flex;
+  flex-wrap: wrap!important;
+  gap: 10px;
+  justify-content: left;
+  margin-bottom: 40px;
+  max-width: 50%;
+}
+
+.button {
+  padding: 12px 24px;
+  border: solid transparent 1px;
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: white;
+  color: #23272a;
+  border: solid transparent 1px;
+}
+
+.button.secondary {
+  background-color: #23272a;
+  color: white;
+}
+/* Characters */
+div.characters{
+  width: 100%;
+text-align: right!important
+}
+img-characters{
+  margin-right: 0;
+  margin-left: 40px!important;
+}
