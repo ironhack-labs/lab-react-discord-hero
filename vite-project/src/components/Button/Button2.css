@@ -1,0 +1,17 @@
+.Button2 {
+  position: relative;
+  background-color: rgb(46, 46, 46);
+  border: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  width: 300px;
+  border-radius: 50px;
+  cursor: pointer;
+}

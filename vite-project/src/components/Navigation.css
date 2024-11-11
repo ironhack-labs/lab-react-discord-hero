@@ -1,0 +1,19 @@
+.header > .logo {
+  width: 200px;
+}
+
+.header > .menu {
+  width: 50px;
+  cursor: pointer;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+}
