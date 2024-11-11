@@ -1,0 +1,74 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(80, 32, 255);
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Poppins';
+  line-height: 1.0;
+  max-width: 30vw;
+  margin-left: 5vw;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  max-width: 30vw;
+  margin-left: 5vw;
+  line-height: 2;
+}
+
+button {
+  height: 4vh;
+  border-radius: 20px;
+  margin-left: 5vw;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 0 1.5vw 0 1.5vw;
+}
+
+/*ID*/
+#open-discord-button {
+  margin-top: 1.5vh;
+  color: white;
+  background-color: black;
+}
+
+/*class*/
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  height: 10vh;
+}
+
+.navbar img:first-child {
+  width: 10vw;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url('./assets/discord-background.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 50%;
+  height: 90vh;
+}
