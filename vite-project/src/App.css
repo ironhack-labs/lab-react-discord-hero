@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	background-color: #404fed;
+	box-sizing: border-box;
+	color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Poppins', sans-serif;
+}
+.btns {
+	border-radius: 25px;
+}
+#btn-container :first-child {
+	width: 200px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+#btn-container :last-child {
+	width: 300px;
+	background-color: black;
+	color: white;
+}
+
+#text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 10%;
+	width: 50%;
+	height: 100%;
+}
+#text-container p,
+h1 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#btn-container {
+	display: flex;
+	flex-direction: column;
+}
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+}
+#nav :first-child {
+	height: 30px;
+}
+#nav :last-child {
+	width: 30px;
+	height: 30px;
+}
+
+#back-image {
+	/* position: absolute; */
+	bottom: 0;
+	left: 0;
+}
+#root {
+	bottom: 0;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+	/* padding: 2rem; */
+	text-align: center;
+	height: 100vh;
+}
+#img-container {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.App {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 25px;
+	margin: auto;
+	height: 100vh;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
