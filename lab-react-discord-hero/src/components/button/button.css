@@ -1,0 +1,29 @@
+
+
+.Button {
+    
+    display: block;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+
+    
+}
+
+
+.Button.download {
+    background-color: #FFFFFF;
+    color: #22272a;
+    
+}
+
+.Button.open {
+    background-color: #22272a;
+    color: #FFFFFF;
+    
+
+}
