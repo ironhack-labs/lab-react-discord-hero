@@ -1,0 +1,34 @@
+#root {
+    margin: 2.3%;
+  }
+  
+  .App {
+    position: relative;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .discord {
+    width: 120px;
+    height: auto;
+  }
+  
+  .section {
+    min-height: 420px;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  
+  }
+  
+  .background  {
+    position: fixed;
+    bottom:0;
+    right: 10%;
+  }
