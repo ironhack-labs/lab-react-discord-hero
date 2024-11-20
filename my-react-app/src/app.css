@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f7;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-section {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.discord-logo {
+  max-width: 200px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  color: #6a6f73;
+}
+
+button {
+  background-color: #7289da;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #5a6fb1;
+}
+
+.hero-image {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 1200px;
+}
