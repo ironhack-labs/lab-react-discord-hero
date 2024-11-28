@@ -1,0 +1,15 @@
+/* Main content styling */
+.main-content {
+  margin-top: 50px;
+  max-width: 600px;
+}
+
+/* Illustration styling */
+.illustration {
+  margin-top: 50px;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}

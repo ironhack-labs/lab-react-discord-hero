@@ -1,0 +1,15 @@
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
