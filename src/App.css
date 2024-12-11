@@ -1,0 +1,73 @@
+body {
+  background-color: #1851e5; /* same as #ffcc99 */
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between; /* Positions children to the far ends */
+  align-items: center; /* Vertically centers the images */
+  width: 100%; /* Optional: Adjusts to the full width of the container */
+  padding: 10px; /* Optional: Adds spacing inside the nav */
+}
+
+.img1,
+.img2 {
+  max-height: 30px; /* Optional: Adjusts the height of the images */
+  width: auto; /* Ensures images maintain their aspect ratio */
+}
+.h1 {
+    font-weight: 900;
+}
+.h1,
+.p {
+  color: white;
+  
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.h1 {
+  margin: 0 0 10px 0; /* Optional spacing between heading and paragraph */
+}
+
+.p {
+  margin: 0; /* Optional reset of default margins */
+  max-width: 400px; /* Adjust the width as needed */
+  text-align: left; /* Ensures the text aligns to the left */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.b1,
+.b2 {
+  margin: 5px 0; /* Space between buttons */
+  border-radius: 20px;
+}
+.b1 {
+background-color: white;
+}
+.b2 {
+background-color: rgb(24, 24, 24);
+color: wheat;
+}
+
+.img3 {
+  /* width: 100px; Adjust image size as needed */
+  height: 500px;
+}
