@@ -1,0 +1,24 @@
+.App{
+ background-color: rgb(64, 64, 248);
+ 
+}
+header, h1, h2 ,h3{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    width: 400px;
+
+}
