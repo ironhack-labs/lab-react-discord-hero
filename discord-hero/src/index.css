@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  min-height: 100vh;
+  background-color: rgb(14, 14, 14);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(64, 78, 237);
+}
+
+.discord {
+  width: 150px;
+  height: auto;
+  background-color: rgb(64, 78, 237);
+}
+
+.menu {
+  width: 50px;
+  height: auto;
+  background-color: rgb(64, 78, 237);
+}
+
+.App {
+  position: relative;
+  width: 180%;
+  max-width: 950px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(64, 78, 237);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  line-height: 1;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#button-container button {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+}
+
+#button-download {
+  background-color: white;
+  color: rgb(14, 14, 14);
+}
+
+#button-open {
+  background-color: rgb(14, 14, 14);
+  color: white;
+  white-space: nowrap;
+}
+
+.hero-container img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
