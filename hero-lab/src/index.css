@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.App {
+  background-color: #5865F2; /* Discord blue */
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  width: 50px;
+  height: auto;
+}
+
+.menu-icon {
+  position: absolute;
+  bottom: 0; /* Align at the bottom of the container */
+  left: 75%; /* Optional: Center horizontally */
+  transform: translateX(-50%); /* Optional: Adjust centering */
+  width: 600px; /* Maintain your styles */
+  height: auto;
+  cursor: pointer;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  text-align: left;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.download {
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+}
+
+button.browser {
+  background-color: black;
+  color: white;
+}
+
+/* Background image adjustment */
+.BackGround {
+  position: absolute;
+ top: 3%;
+ left: 3%;
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  opacity: 0.9;
+  z-index: 0;
+}
