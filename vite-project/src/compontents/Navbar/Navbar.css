@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(221, 69%, 63%)
+}
+
+#logo-id{
+    width: 15%;
+    height: auto;
+    background-color: hsl(221, 69%, 63%)
+}
+
+#hamburger-id{
+    width: 5%;
+    height: auto;
+    background-color: hsl(221, 69%, 63%)
+}
