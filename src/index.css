@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #404fed;
+}
+
+#main-div {
+  padding: 0px 24px;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  margin-top: 10px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#buttons-img {
+  display: flex;
+  justify-content: column;
+  align-items: start;
+}
+
+#button-download {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+#button-open-browser {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+#buttons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
