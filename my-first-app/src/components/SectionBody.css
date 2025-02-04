@@ -1,0 +1,25 @@
+.section-body{
+    color: white;
+}
+.text-section{
+    margin: 50px;
+    width: 300px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px;
+}
+.button-white{
+width: 80%;
+}
+.button-black{
+color: white;
+background-color: black;
+margin-top: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
