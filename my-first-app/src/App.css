@@ -1,0 +1,69 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #404FED;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.imgNavBar1 {
+  width: 200px;
+}
+
+.containerText {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+  font-weight: bold
+}
+
+.containerText h1 {
+  font-size: 4em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #f31444;
+}
+
+
+.buttonBlack {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.buttonWhite {
+  width: 40%;
+  margin: 10px;
+}
+
+.buttonBlack {
+  width: 60%;
+}
+
+.finalImage {
+  display: flex;
+  justify-content: space-around;
+}
