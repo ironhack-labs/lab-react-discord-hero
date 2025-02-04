@@ -1,0 +1,64 @@
+.header {
+    height: 90vh;
+    background-image: url("/src/assets/images/discord-background.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+    padding-left: 3rem;
+    color: var(--white);
+}
+
+.header__h1 {
+    font-size: calc(2rem + 2vw);
+    span {
+        display: block;
+        margin-top: -2%;
+    }
+}
+
+.header__p {
+    width: 41%;
+    font-size: calc(2rem - 1vw);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header__buttons {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.header__button {
+    /*border: none;
+    padding: 1rem;
+    border-top-left-radius: 9%;
+    */padding: 1rem 2rem;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: calc(.8rem + .2vw);
+    font-weight: 600;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+  
+.header__button-white {
+    width: 70%;
+    background-color: var(--white);
+    color: var(--black);
+}
+  
+.header__button-black {
+    width: 96%;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+br {
+    margin-bottom: .24rem;
+}

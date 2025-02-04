@@ -1,0 +1,28 @@
+:root {
+  --heading-font: 'Poppins', sans-serif;
+  --paragraphs-and-text-font: 'Roboto', sans-serif;
+  --blue: #4056e7;
+  --white: #fff;
+  --black: #272b2d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: var(--paragraphs-and-text-font);
+  font-style: normal;
+  font-weight: 500;
+  background-color: var(--blue);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+  font-weight: 900;
+}
