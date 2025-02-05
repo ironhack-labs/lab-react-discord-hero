@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #404FED; 
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#404FED;
+  margin-bottom: 60px;
+}
+
+#logo {
+  width: 120px;
+}
+
+#nav-img {
+  width: 40px;
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 580px;
+  background-image: url(../src/assets/discord-background.png);
+  background-repeat: no-repeat;
+  background-position-x: 460px;
+  background-position-y: 300px;
+  background-size: 350px;
+  padding: 0 100px 40px;
+}
+
+h1{
+  width: 300px;
+  font-family:'Poppins', sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+p{
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 24px ;
+}
+
+#download-button{
+  background:#ffffff;
+  color: #23272A;
+  border: 0;
+  border-radius: 48px;
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 24px;
+}
+
+#open-button{
+  background:#23272A;
+  color:#ffffff ;
+  border: 0;
+  border-radius: 48px;
+  padding: 16px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+}
+
+
+
+
