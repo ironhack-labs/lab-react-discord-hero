@@ -1,0 +1,56 @@
+
+body{
+  background-color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5%;
+}
+
+#section-header{
+display: flex;
+justify-content: space-between;
+width: 90vw;
+padding-top: 2%;
+}
+
+#section-landing{
+  padding-top: 2%;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#div-buttons{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#mac-button{
+border-radius: 50px;
+background-color: white;
+color: rgb(65, 65, 65);
+margin-bottom: 1%;
+width: fit-content;
+height: fit-content;
+}
+
+#browser-button{
+  border-radius: 50px;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+}
+
+#text{
+  max-width: 600px;
+  margin-bottom: 10%;
+}
+
+#backgr-img{
+width: 45vw;
+position: absolute;
+right: 0;
+bottom: 0;
+}
