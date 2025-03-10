@@ -1,0 +1,51 @@
+body{
+  background-color: blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  padding:100px 20px;
+  font-weight: 900; /* Black 900 */
+}
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:white;
+  padding:100px 20px;
+  line-height: 1.6;
+ 
+}
+
+body, p, span, a, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular 400 */
+}
+
+strong, b {
+  font-weight: 500;
+}
+.logo {
+  position: absolute;  
+  top: 20px;          
+  left: 20px;          
+  width: 120px;       
+  height: auto;        
+}
+.icon {
+  position: absolute;  
+  top: 20px;           
+  right: 20px;         
+  width: 40px;         
+  height: auto;        
+  cursor: pointer;    
+}
+.background{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 600px;  /* Adjust size */
+  height: auto;
+}
+
+
