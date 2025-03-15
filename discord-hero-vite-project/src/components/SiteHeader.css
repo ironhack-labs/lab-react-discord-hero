@@ -1,0 +1,19 @@
+.SiteHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 64px;
+}
+
+#logo {
+    background: none;
+    height: 32px;
+    width: auto;
+}
+
+#MenuButton {
+    background: none;
+    padding: 8px;
+}

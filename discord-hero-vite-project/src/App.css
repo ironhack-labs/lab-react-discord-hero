@@ -1,0 +1,68 @@
+#root {
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* .logo {
+  height: 10%;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+header,main {
+  width: 100%;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.DownloadButton, .PreviewButton {
+  padding: 0.5em 1em;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin: 1em 0em;
+  width: 15em;
+  height: 3em;
+}
+
+.PreviewButton {
+  background-color: #23272a;
+  color: white;
+  width: 25em;
+}
+
+body {
+  background-image: url('./assets/discord-background.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 60%;
+}
