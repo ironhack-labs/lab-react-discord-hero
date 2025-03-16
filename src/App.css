@@ -1,0 +1,44 @@
+body {
+  width: 100%;
+  padding: 60px;
+  background-color: #5865f2;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%; 
+  position: absolute; 
+  top: 60px;
+  left: 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px; 
+  box-sizing: border-box; 
+}
+
+.header-logo {
+  height: 25px;
+  width: auto;
+  
+}
+
+.menu-icon{
+  height: 35px;
+  width: auto;
+}
+
+
+
+.hero-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 90%;
+}
+
+.hero-subheading {
+  max-width: 550px;
+}
