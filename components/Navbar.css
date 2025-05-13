@@ -1,0 +1,11 @@
+Nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 0;  
+}
+
+img {
+    height: 40px;
+    width: auto;
+}

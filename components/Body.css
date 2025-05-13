@@ -1,0 +1,18 @@
+#body-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 65%;    
+    
+}
+
+h1 {
+font-size: 72px;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+}
+
+p{
+    font-size: 28px;
+    font-family:'Roboto', sans-serif;
+}

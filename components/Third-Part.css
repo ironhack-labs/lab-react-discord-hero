@@ -1,0 +1,47 @@
+#third-part-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+#btn-mac {
+    background-color: white;
+    padding: 20px 35px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 50px;
+}
+
+#btn-discord {
+    background-color: black;
+    padding: 20px 35px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+#img-container {
+    display: flex;
+    width: 100vh;
+    position: relative;
+    height: 400px;
+
+
+}
+
+#third-image {
+    position: absolute ;
+    bottom: 0;
+    height: 100%;
+    left: 200px;
+}
+
+
