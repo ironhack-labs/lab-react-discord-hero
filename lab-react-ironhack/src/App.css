@@ -1,0 +1,65 @@
+.App {
+  background-image: url(./assets/discord-background.png);
+  background-repeat: no-repeat;
+  background-position: 40vw 63vh;
+  background-color: rgb(71, 80, 232);
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: rgb(71, 80, 232);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-navbar {
+  padding: 20px;
+  width: 15vw;
+}
+
+.menu-navbar {
+  padding: 20px 30px;
+  height: 4vh;
+}
+
+.logo-navbar:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo-navbar.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.article {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 50px;
+}
+.article h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  width: 70%;
+}
+
+.article p {
+  font-family: "Roboto", sans-serif;
+  width: 70%;
+  font-weight: bold;
+}
+
+.macbtn {
+  margin: 20px 0;
+  width: 190px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 15px;
+}
+
+.discordbtn {
+  padding: 15px;
+  width: 300px;
+  background-color: black;
+  border-radius: 20px;
+}
