@@ -1,0 +1,18 @@
+
+* {
+  color: white;
+  
+}
+
+:header {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
