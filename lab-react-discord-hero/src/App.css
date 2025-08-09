@@ -1,0 +1,27 @@
+#root {
+  padding: 2rem;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menuIcon {
+  width: 30px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
