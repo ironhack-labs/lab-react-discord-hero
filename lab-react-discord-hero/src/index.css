@@ -1,0 +1,67 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #434EE4;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 80px;
+  margin: 0 0 16px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.white {
+  background-color: white;
+  color: black;
+}
+
+.btn.black {
+  background-color: black;
+  color: white;
+}
+
+p {
+  padding-right: 60%;
+}
+
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  position: absolute;
+  max-width: 520px;
+  height: auto;
+  align-items: right;
+}
