@@ -1,0 +1,92 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #404fed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  position: relative;
+
+  #background-img {
+    position: fixed;
+    bottom: 0px;
+    right: 1%;
+  }
+}
+
+#navbar {
+  #discord-logo {
+    width: 100px;
+  }
+
+
+  #menu-icon{
+    height: 30px;
+  }
+  
+  ul{
+    list-style: none;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+  }
+}
+
+#intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 450px;
+  padding: 25px;
+  gap: 15px;
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    button {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1em;
+      padding: 10px;
+      border: solid 0px;    
+      border-radius: 30px;
+      height: 45px;
+  
+      &#download-btn {
+        color: black;
+        background-color: white;
+        width: 200px;
+      }
+
+      &#open-browser-btn {
+        color: white;
+        background-color: #23272a;
+        width: 270px;
+      }
+    }
+  }  
+
+}
