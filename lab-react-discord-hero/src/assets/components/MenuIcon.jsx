@@ -1,6 +1,6 @@
 function MenuIcon({image}) {
     return (
-        <img src={image}/>
+        <img className="menu-icon" src={image}/>
     )
 }
 

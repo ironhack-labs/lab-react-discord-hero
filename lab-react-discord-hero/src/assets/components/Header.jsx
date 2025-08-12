@@ -3,9 +3,9 @@ import MenuIcon from "./MenuIcon.jsx";
 
 function Header() {
     return (
-    <div>
-        <MenuIcon image="/src/assets/images/menu-icon.png" />
+    <div className="header">
         <Logo image="/src/assets/images/discord-logo.png" />
+        <MenuIcon image="/src/assets/images/menu-icon.png" />
     </div>
     )
 }

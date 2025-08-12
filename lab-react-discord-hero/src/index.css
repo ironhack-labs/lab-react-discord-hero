@@ -2,3 +2,67 @@
   padding:0;
   margin:0;
 }
+
+body{
+  background-color: #5865f2;
+}
+
+.logo{
+  max-height: 2rem;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin-left:1rem;
+}
+
+p{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  max-width: 65%;
+  margin-left:1rem;
+  padding: 0.5rem 0;
+}
+
+.button_downloadmac{
+  background-color: #fff;
+  border: 0;
+  border-radius: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  height: 40px;
+}
+.button_openbrowser{
+  background-color: #1f1f1f;
+  border: 0;
+  border-radius: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  height: 40px;
+}
+button{
+  margin: 0.5rem 0;
+  font-family: 'Roboto', sans-serif;
+}
+.buttons{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left:1rem;
+}
+
+.discord-background{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1.5rem;
+}
