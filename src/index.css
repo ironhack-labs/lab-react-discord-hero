@@ -1,0 +1,67 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #3a40bb;
+}
+
+header h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 75px;
+  width: 500px;
+}
+
+header div p {
+  width: 700px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white
+}
+
+#download-btn {
+  border-radius: 50px;
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  font-size: medium;
+  border: none;
+}
+
+
+#open-btn {
+  border-radius: 50px;
+  width: 250px;
+  height: 40px;
+  background-color: grey;
+  border: none;
+  font-size: medium;
+  position: relative;
+  top: 20px
+}
+
+header #background-img img {
+  width: 700px;
+  position: relative;
+  left: 800px
+}
+
+header nav #logo-img img {
+  width: 100px;
+  position: relative;
+  top: 30px;
+}
+
+header nav #menu-icon img {
+  width: 30px;
+  position: relative;
+  left: 1200px;
+}
