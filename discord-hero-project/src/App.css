@@ -1,0 +1,68 @@
+body {
+  background-color: #404fed;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.App {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+p {
+  width: 45%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.logo-icon {
+  height: 30px;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.buttonStack {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.background-icon {
+  display: flex;
+  justify-content: flex-end;
+}
