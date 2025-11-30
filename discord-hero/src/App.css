@@ -1,0 +1,14 @@
+body, .App {
+  background-color: #404fed;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
