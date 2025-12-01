@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 220px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+}

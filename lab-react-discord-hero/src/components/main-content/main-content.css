@@ -1,0 +1,65 @@
+.color-white {
+    color: white;
+}
+
+.box-width {
+    width: 45vw;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.title {
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.text-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-title-size {
+    font-size: 75px;
+    transform: scaleY(0.85);
+}
+
+.font-text-size {
+    font-size: 23px;
+}
+
+.margin-padding-zero {
+    line-height: 75px;
+}
+
+.download {
+    height: 60px;
+    width: 275px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.open {
+    height: 60px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #404fed;
+  background-image: url(./assets/images/discord-background.png);
+  background-size: 650px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 50vw;
+}
