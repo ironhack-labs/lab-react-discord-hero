@@ -1,0 +1,61 @@
+/* Variable's definition */
+
+:root{
+    --background: #404fed;
+    --blanco: #FFFFFF;
+}
+
+/* CSS Cleaning previous styles */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* app styles */
+
+.app{
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+}
+
+.app h1{
+    font-family: 'Poppins', sans-serif;
+    color: var(--blanco);
+}
+
+.app p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--blanco);
+}
+
+.background-img{
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Navbar styles */
+
+.logotype img{
+  max-width: 200px;
+}
+
+.menu-item{
+  list-style-type: none;
+}
+
+/* Card styles */
+
+.card-body h1{
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.custom-button{
+  width: 30%;
+  height: 2rem;
+}
