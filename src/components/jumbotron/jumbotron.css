@@ -1,0 +1,27 @@
+.jumbotron {
+    background-color: #5865F2;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.characters-img {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 60%;
+    width: auto;
+    object-fit: contain;
+    /*oque é?*/
+}
+
+/*Responsivo*/
+@media (max-width: 768px) {
+    .characters-img {
+        height: 40%;
+        right: 5%;
+    }
+}

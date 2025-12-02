@@ -1,0 +1,39 @@
+.navbar-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /*navbar fixo*/
+    background-color: transparent;
+
+}
+
+/*novo*/
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200PX;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.navbar-logo {
+    height: 35px;;
+    width: auto;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 2px;
+}
