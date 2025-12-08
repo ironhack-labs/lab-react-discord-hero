@@ -1,0 +1,90 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  background-color: hsl(240, 53%, 51%);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+
+footer, header{
+  background-color: hsl(240, 53%, 51%);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo{
+  width: 15%;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Poppins', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+  margin-left: 20px; 
+  padding: 20px;
+  font-size: 50px;
+}
+
+h1{
+  margin-top: 30%;
+  font-size: 100px;
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10x 0;
+  margin-left: 40px;
+  color: white;
+}
+
+button{
+  display: block;
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button1{
+  background-color: white;
+  color: black;
+}
+
+.background{
+  position:absolute;
+  bottom: 0;
+  right: 30px;
+}
