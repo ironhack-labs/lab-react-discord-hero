@@ -1,0 +1,181 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #5865f2;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 4%;
+}
+
+.discord-logo {
+  width: 15%;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.hero-section {
+  padding: 5% 4%;
+  max-width: 100%;
+  margin-top: 5%;
+}
+
+.hero-content {
+  max-width: 60%;
+}
+
+.hero-content .heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-stretch: expanded;
+}
+
+.hero-content .paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 5%;
+  letter-spacing: 2px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #23272a;
+  max-width: 40%;
+}
+
+.btn-primary:hover {
+  background-color: #f6f6f6;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: #23272a;
+  color: white;
+  max-width: 50%;
+}
+
+.btn-secondary:hover {
+  background-color: #36393f;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content .heading {
+    font-size: 36px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    max-width: 100%;
+  }
+
+  .button-group {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-image {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+}
