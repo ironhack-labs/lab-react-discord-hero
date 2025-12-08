@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(64, 79, 237);
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 40px;
+}
+#header img {
+  height: 50px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: start;
+  text-align: left;
+  width: 60%;
+}
+
+#info h1 {
+  font-size: 60px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#mac-button {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#browser-button {
+  border-radius: 20px;
+  background-color: rgba(35, 39, 42);
+  color: white;
+  padding: 10px 20px;
+}
+
+#discord-background-image {
+  position: absolute;
+  bottom: 0;
+}
