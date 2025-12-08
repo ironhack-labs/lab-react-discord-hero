@@ -1,0 +1,88 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.background {
+  width: 1000px;
+  height: 100vh;
+  background: #2353e6; 
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 40px 50px;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left img {
+  width: 130px;
+}
+
+
+
+.content {
+  margin-top: 80px;
+  max-width: 550px;
+}
+
+.content h1 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+
+.bottons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 270px;
+}
+
+.btn-light {
+  background: white;
+  color: black;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+
+.background > img {
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+  width: 700px;
+}
