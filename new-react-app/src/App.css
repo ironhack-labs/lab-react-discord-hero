@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #404eed;
+}
+
+#root {
+  width: 100vh;
+  height: 100vh;
+  background-color: #404eed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px;
+}
+
+.nav-bar {
+  width: 95%;
+  position: absolute;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.main {
+  width: 60%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  z-index: 2;
+}
+
+.main-title {
+  max-width: 350px;
+  font-size: 4em;
+  line-height: 50px;
+}
+
+.main-p {
+  font-size: 1.2em;
+  margin: 30px auto;
+}
+
+button {
+  width: auto;
+  text-align: center;
+  border-radius: 50px;
+  height: 60px;
+  margin: 10px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.btn-mac {
+  background-color: white;
+  width: 250px;
+  color: #23272a;
+}
+
+.btn-discord {
+  color: white;
+  width: 350px;
+  background-color: #23272a;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  justify-content: right;
+}
