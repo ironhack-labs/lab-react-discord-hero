@@ -1,0 +1,126 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HERO background */
+.hero {
+  min-height: 100vh;
+  background: #404eed;
+  color: white;
+}
+
+/* NAV */
+.hero-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+}
+
+.hero-logo {
+  height: 28px;
+}
+
+.hero-menu {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.hero-menu img {
+  width: 28px;
+  height: 28px;
+}
+
+/* 2-column layout */
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 80px 0;
+}
+
+.hero-left {
+  max-width: 560px;
+}
+
+.hero-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 0.9;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+.hero-left p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0 0 28px;
+  max-width: 520px;
+}
+
+/* Buttons stacked like reference */
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px; /* gives that consistent Discord button width */
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-light {
+  background: white;
+  color: #23272a;
+}
+
+.btn-dark {
+  background: #23272a;
+  color: white;
+}
+
+/* Right artwork */
+.hero-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.hero-art {
+  width: min(520px, 40vw);
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 900px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .hero-art {
+    width: min(520px, 90vw);
+  }
+}
