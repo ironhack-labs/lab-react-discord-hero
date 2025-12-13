@@ -1,0 +1,61 @@
+html {
+  background-color: #5865F2 ;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+}
+
+header {
+  display: flex;justify-content: space-between;
+  margin: 20px;
+
+}
+
+.discord-logo {
+  width: 20vw;
+  height: 5vh;
+}
+
+.menu-icon {
+  height: 5vh;
+}
+
+h1, p {
+  color: white;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 87.5vh;
+  margin: 30px 0 0 20px;
+  /* border: 1px solid white; */
+}
+
+button {
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.discord-browser-btn {
+  background-color: black;
+  color: white;
+  width: 250px;
+  border: none;
+}
+
+.mac-btn {
+  width: 150px;
+  border: none;
+}
+
+.discord-background {
+  width: 400px;
+  align-self: flex-end;
+}
