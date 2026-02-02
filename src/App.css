@@ -1,0 +1,98 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: #404eed; 
+  padding: 30px 40px;
+  overflow: hidden;
+}
+
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 26px;
+}
+
+.menu {
+  height: 18px;
+}
+
+.hero-content {
+  max-width: 520px;
+  margin-top: 80px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 0.95;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 260px;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn.white {
+  background: white;
+  color: #23272a;
+}
+
+.btn.dark {
+  background: #23272a;
+  color: white;
+}
+
+
+.illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 650px;       
+  max-width: 60vw;
+  height: auto;
+  z-index: 1;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+  z-index: 3;
+}
+
+.logo {
+  height: 26px;
+}
+
+.menu {
+  height: 18px;
+}
