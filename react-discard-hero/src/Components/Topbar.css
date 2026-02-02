@@ -1,0 +1,9 @@
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#discord-image {
+    width: 200px;
+}
