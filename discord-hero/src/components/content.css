@@ -1,0 +1,13 @@
+.text {
+  padding: 20px;
+  margin: 20px;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
