@@ -1,0 +1,59 @@
+/* App.css */
+
+.App {
+  background-color: #404eed; /* Discord Blue */
+  height: 100vh;
+  padding: 20px 40px;
+  color: white;
+  position: relative;
+  overflow: hidden; /* Prevents  characters from causing scroll */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 25px;
+}
+
+.menu-btn {
+  height: 25px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif; /* Requires the Google Font link in index.html */
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Make your buttons look like the real ones */
+.download-btn, .browser-btn {
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.download-btn {
+  background-color: white;
+  color: #23272a;
+}
+
+.browser-btn {
+  background-color: #23272a;
+  color: white;
+}
+
