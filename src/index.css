@@ -1,0 +1,39 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: blue;
+  height: 730px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.discord{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: start;
+}
+.text{
+  padding: 20px;
+  width: 50%;
+  text-align: start;
+  font-size: 20px;
+}
