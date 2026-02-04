@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+
+import logo from './assets/discord-logo-white.png';
+import menuIcon from './assets/menu-icon.png';
+import backgroundImg from './assets/discord-background.png';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="App">
+
+      <header className="navbar">
+        <img src={logo} className="logo" />
+        <img src={menuIcon} className="menu" />
+      </header>
+
+      <section className="mainSection">
+
+        <div className="textArea">
+          <h1>IMAGINE A PLACE...</h1>
+
+          <p>
+            ...where you can belong to a school club, a gaming group,
+            or a worldwide art community. Where just you and a handful
+            of friends can spend time together. A place that makes it
+            easy to talk every day and hang out more often.
+          </p>
+
+          <div className="buttons">
+            <button className="whiteBtn">Download for Mac</button>
+            <button className="blackBtn">Open Discord in your browser</button>
+          </div>
+        </div>
+
+        <img src={backgroundImg} className="mainSectionImg" />
+
+      </section>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
