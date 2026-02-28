@@ -35,7 +35,7 @@ function App() {
     </button>
 
     <button className="button2">
-      Open Discord in your Broswer
+      Open Discord in your Browser
     </button>
     </div>
     
