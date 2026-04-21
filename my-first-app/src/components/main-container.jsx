@@ -1,16 +1,14 @@
 function MainContainer() {
 
-    // const ContainerStyle = {
-    //  display: flex,
-    //  flex-direction: row,
-    //  justify-content:space-between,
-    //  align-items: start,
-    //  margin : 20px
-    // }
+  //  const ContainerStyle = {
+  //   text-align:"left" ,
+  //   color:"white",
+  //   margin : "20px"
+  //   }
 
 
   return (
-    <container id="main-container">
+    <div id="main-container">
       <h1>
         IMAGINE A <br /> PLACE... <br/>
       </h1>
@@ -19,7 +17,7 @@ function MainContainer() {
         together. A place that makes it easy to talk every day and hang out more
         often.
       </p>
-    </container>
+    </div>
   );
 }
 
