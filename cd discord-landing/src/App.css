@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #404eed;
+}
+
+/* APP */
+.App {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* ❌ ESCONDE LINKS (como na imagem correta) */
+.nav-links {
+  display: none;
+}
+
+/* ❌ ESCONDE LOGIN */
+.login-btn {
+  display: none;
+}
+
+/* ✅ MOSTRA MENU ICON */
+.menu-icon {
+  display: block;
+  width: 28px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 80px 60px;
+  color: white;
+  text-align: left;
+}
+
+/* IMAGEM */
+.hero-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 550px;
+}
+
+/* TEXTO */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* BOTÕES */
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-white {
+  background: white;
+  color: black;
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.btn-dark {
+  background: #23272a;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-bg {
+    width: 350px;
+  }
+}
