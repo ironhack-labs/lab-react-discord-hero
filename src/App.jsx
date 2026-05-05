@@ -54,7 +54,7 @@ function App() {
         <div style={textBox}>
           <h1 style={title}>IMAGINE A<br />PLACE...</h1>
           <p>
-            ...where youn can belong to a school club, a gaming grounp, or a
+            ...where young people can belong to a school club, a gaming grounp, or a
           </p>
           <p>worldwide art community. Where just you and a handful of</p>
           <p>friends can spend time together. A place that makes it easy to </p>
