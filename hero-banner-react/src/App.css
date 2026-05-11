@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404fed;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+.hero-body-text {
+  line-height: 2rem;
+}
+
+.logo {
+  width: 250px;
+}
+
+nav.navBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+.hero-text {
+  width: 40%;
+  margin-bottom: 2rem;
+  padding: 0rem 3rem;
+}
+.hero-title,
+.hero-body-text {
+  color: #fff;
+}
+.hero-title {
+  font-size: 70px;
+}
+
+.hero-section-images {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.hero-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 0rem 3rem;
+}
+button {
+  border-radius: 25px;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.hero-section-button-white {
+  background-color: #fff;
+  border: #fff;
+  margin-bottom: 1rem;
+}
+.hero-section-button-black {
+  background-color: #22272a;
+  border: #22272a;
+  color: #fff;
+}
