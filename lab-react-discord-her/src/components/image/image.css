@@ -1,0 +1,5 @@
+.image {
+    display: flex; 
+    justify-content: end;
+    size: 50%;
+}
