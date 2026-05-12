@@ -1,0 +1,17 @@
+html, body {
+  background-color: black;
+  display: flex; 
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 1000px;
+  height: 100%;
+  align-items: stretch;
+  background: rgb(82, 82, 247);
+  min-height: 100vh;
+}
+

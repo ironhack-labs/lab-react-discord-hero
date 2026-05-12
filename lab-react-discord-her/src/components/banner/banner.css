@@ -1,0 +1,22 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.discordImg img {
+    margin-left: 5px;
+    width: 150px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.menuImg button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.menuImg img {
+    margin-left: 5px;
+    width: 30px;
+    height: auto;
+}
