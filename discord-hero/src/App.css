@@ -1,0 +1,83 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: #404eed;
+  color: white;
+  padding: 24px 40px 0;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 124px;
+}
+
+.menu-icon {
+  width: 28px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 520px;
+  padding-top: 20px;
+}
+
+.hero-text h1 {
+  margin: 0 0 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  margin: 0 0 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.hero-text button {
+  border: none;
+  border-radius: 999px;
+  background: white;
+  color: #23272a;
+  padding: 16px 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero-image {
+  width: 650px;
+  max-width: 100%;
+  display: block;
+}
