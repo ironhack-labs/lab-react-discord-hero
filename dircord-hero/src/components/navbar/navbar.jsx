@@ -7,8 +7,9 @@ function NavBar() {
         justifyContent: "space-between", 
         alignItems: "center",            
         padding: "20px 40px",            
-        width: "100%",                  
-        boxSizing: "border-box"
+        width: "80%",                  
+        boxSizing: "border-box",
+        marginBottom: "10%"
     };
 
     

@@ -11,8 +11,10 @@ function LandingPage() {
         together. A place that makes it easy to talk every day and hang out more
         often.{" "}
       </p>
-      <Button color="white" text="Download for Mac" />
-      <Button color="black" text="Open Discord in your browser" />
+      <div>
+        <Button color="white" text="Download for Mac" />
+        <Button color="black" text="Open Discord in your browser" />
+      </div>
       <img src={landingPicture} alt="background Picture" />
     </div>
   );
