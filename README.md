@@ -1,24 +1,21 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# React + Vite
 
-# LAB | React Discord Hero
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<details>
-  <summary>
-   <h2>Learning Goals</h2>
-  </summary>
+Currently, two official plugins are available:
 
-  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-  Upon completion of this exercise, you will be able to:
+## React Compiler
 
-  - Set up a new React app and run it in development mode.
-  - Create and render a React function component.
-  - Use JSX to render content within a React component.
-  - Import and render images in a React component.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-  <br>
-  <hr> 
+## Expanding the ESLint configuration
 
+<<<<<<< HEAD
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
 </details>
 
 ## Introduction
@@ -360,3 +357,4 @@ For now, don't worry about creating more than one component, we will cover that 
   [Back to top](#faqs)
 
 </details>
+>>>>>>> 13d2529039765650118558e827d3f9b681d97191
