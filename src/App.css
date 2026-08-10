@@ -1,0 +1,73 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  background-color: #404fed;
+  color: #FFFFFF;
+}
+
+header {
+  margin: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 1000px;
+  height: 700px;
+  background-image: url("./assets/discord-background.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+h1 {
+  font-size: 64px;
+  transform: scale(1, .8);
+  line-height: .9;
+  text-transform: uppercase;
+}
+
+#logo {
+  height: 24px;
+}
+
+#menu {
+  height: 38px;
+}
+
+#landing-page-content {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  width: 500px;
+  height: 100%;
+}
+
+#landing-page-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#landing-page-content button {
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  align-self: flex-start;
+  font-size: 18px;
+  padding: 0 28px;
+}
+
+#open-browser-button {
+  background-color: #23272a;
+  color: #FFFFFF;
+}
