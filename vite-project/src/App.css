@@ -1,0 +1,84 @@
+.App {
+  min-height: 100vh;
+  background-color: #5865f2;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+header > img:first-child {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header > img:last-child {
+  width: 30px;
+}
+
+main {
+  position: relative;
+  min-height: calc(100vh - 80px);
+}
+
+section {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 450px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1;
+  margin: 0 0 25px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+section button {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+section button:last-child {
+  background-color: black;
+  color: white;
+}
+
+main > img {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  width: 500px;
+}
