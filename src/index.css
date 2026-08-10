@@ -1,0 +1,4 @@
+:root {
+  --bg: #fff;
+  background: var(--bg);
+}

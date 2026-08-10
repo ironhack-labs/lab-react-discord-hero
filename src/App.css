@@ -1,0 +1,80 @@
+body{
+  width: 1000px;
+  height: 720px;
+  background-color: #404FED;
+  margin: 0px;
+}
+
+#root{
+  height: 100%;
+}
+
+header div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+#logo{
+  height: 24px;
+}
+
+#menu-icon{
+  height: 32px;
+}
+
+main{
+  height: 100%;
+  background-image: url('./assets/discord-background.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#content{
+  width: 500px;
+  padding: 30px;
+  color: white;
+}
+
+#content h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 5rem;
+  transform: scaleY(0.8);
+}
+
+#content p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 28px;
+  font-size: 18px;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+button{
+  display: block;
+  font-size: 18px
+}
+
+#download-mac{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 28px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+#open-browser{
+  color: white;
+  background-color: #23272A;
+  border: 1px solid #23272A;
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
