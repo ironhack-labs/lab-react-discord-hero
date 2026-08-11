@@ -1,0 +1,95 @@
+/* fonts */
+:root {
+  --sans: 'Roboto', sans-serif;
+  --heading: 'Poppins', sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(64, 43, 226);
+}
+
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(64, 43, 226);
+  padding: 20px;
+  position: sticky;
+
+}
+
+.nav-image {
+ height: 24px;
+}
+
+#hero-section{
+  height: 100vh;
+  width: 100%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+#HeroContent{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 30px;
+}
+
+h1{
+  color: white;
+  font-family: 'Poppins';
+  font-size: 70px;
+  margin: 0;
+  line-height: 1;
+
+}
+
+p{
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+#button-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+button{
+  padding: 12px 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 100px;
+  border: 0;
+  width: fit-content;
+  
+}
+
+#hero-img-wrapper{
+  position: absolute;
+  bottom: 0;
+  right: 0; /* Slight overflow offset matching Discord's look */
+  width: 600px;
+  padding-right: 80px;
+}
+
+/* #image-bg-hero{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
