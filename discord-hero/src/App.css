@@ -1,0 +1,70 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+p {
+  font-size: 24px;
+  text-align: left;
+  line-height: 35px;
+}
+
+body, p {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px;
+  background-color: #404EED;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download {
+  background-color: white;
+  width: fit-content;
+  padding: 20px 30px;
+  border-radius: 200px;
+  font-size: 18px;
+  border: none;
+}
+
+.urlLink{
+  background-color: black;
+  color: white;
+  width:fit-content;
+  padding: 20px 30px;
+  border-radius: 200px;
+  font-size: 18px;
+  border: none;
+}
+
+.bg-image {
+    width: 800px;
+    position: relative;
+    top: 300px;
+    right: -40px;
+    z-index: 1;
+}
