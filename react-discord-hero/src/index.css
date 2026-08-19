@@ -1,16 +1,30 @@
 * {
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, sans-serif;
 }
 
 html {
     background: #404fed;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .Navbar {
@@ -19,6 +33,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    height: 65px;
 }
 
 .Navbar__logo-img {
@@ -34,4 +49,53 @@ body {
 .Navbar__menu-button-img {
     width: 30px;
     height: auto;
+}
+
+.Hero {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    height: calc(100vh - 65px);
+    padding-block: 50px;
+    background: url('./assets/discord-background.png') no-repeat right bottom;
+}
+
+.Hero__title {
+    text-transform: uppercase;
+    max-width: 270px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.Hero__description {
+    max-width: 450px;
+    line-height: 1.5;
+}
+
+.Hero__button {
+    background: #fff;
+    height: 35px;
+    display: inline-flex;
+    border: none;
+    border-radius: 50px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    padding-inline: 25px;
+}
+
+.Hero__button-secondary {
+    background: #333;
+    height: 35px;
+    display: inline-flex;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    padding-inline: 25px;
 }
