@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #5865f2;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.banner {
+  background-color: #5865f2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.banner-left {
+  max-width: 40%;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.banner-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.9rem 1.4rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.primary {
+  background-color: white;
+  color: #23272a;
+}
+
+.btn.secondary {
+  background-color: #23272a;
+  color: white;
+}
+
+.banner-right {
+  max-width: 50%;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
