@@ -1,4 +1,4 @@
-function Discord (corps) {
+function Discord () {
     return <div className="discord">
         <div className="navBar">
 
