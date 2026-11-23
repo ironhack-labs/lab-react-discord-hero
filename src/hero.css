@@ -1,0 +1,30 @@
+.content {
+    width: 100%;
+    min-height: 600px;
+    padding-right: 50%;
+
+    background: url("./assets/discord-background.png") no-repeat right center;
+    background-size: contain;
+}
+
+.content-title {
+    margin: 0 0 50px 0;
+
+    line-height: 0.8;
+    font-size: var(--font-xl);
+}
+
+.content-text {
+    margin: 0 0 35px 0;
+
+    line-height: 2;
+}
+
+.btnList {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+}

@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 80px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.nav {
+    cursor: pointer;
+}
