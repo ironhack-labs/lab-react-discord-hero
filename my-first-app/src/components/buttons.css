@@ -1,0 +1,9 @@
+
+.Button{
+  border: none;
+  padding: 15px 40px;
+  margin: 10px 0px;
+  border-radius: 50px;
+  width: auto;
+  font-size: 22px;
+}

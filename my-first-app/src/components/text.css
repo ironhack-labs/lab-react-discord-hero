@@ -1,0 +1,9 @@
+.text p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  width: 620px;
+  margin-bottom: 30px;
+}
