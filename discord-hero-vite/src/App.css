@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(45, 141, 219);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.discord-logo{
+    width: 120px;
+    height: 30px;
+}
+
+.menu-button{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    width: 300px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-family: 'roboto', sans-serif;
+    width: 650px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.download-mac{
+    font-family: 'roboto', sans-serif;
+    color: rgb(47, 40, 77);
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.open-discord-browser{
+    font-family: 'roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color:  rgb(43, 42, 51);
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+
+.discord-img{
+    position: relative;
+    left: 450px;
+    bottom: 200px;
+}
+
